@@ -1,20 +1,20 @@
 body {
     text-align: center;
     font-family:Poppins;
+    background-color:azure;
 }
 .navbar {
     overflow: hidden;
     background-color: #333;
     position: sticky;
     top: 0;
-    
 }
 .navbar a {
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px;
+    padding: 15px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -23,8 +23,12 @@ body {
     color: black;
 }
 .active {
-    background-color: #4CAF50;
+    background-color: #6e7edb;
     color: white;
+}
+.content {
+    background-image: url("images/bg.png");
+    background-size: cover;
 }
 @media screen and (max-width: 600px) {
     .navbar a {
